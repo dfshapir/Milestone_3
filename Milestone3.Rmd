@@ -1,0 +1,21 @@
+---
+title: "Milestone 3"
+author: "Daniel Shapiro"
+date: "10/4/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, error = FALSE)
+library(tidyverse)
+library(readxl)
+```
+
+```{r}
+options(encoding = "UTF-8")
+Sys.setlocale("LC_CTYPE", "russian")
+setwd("C:/Users/dshap/Documents/class-2019-09-10/Milestone_3")
+interview1 <- read_xlsx("ALVShE.xlsx")
+print(interview1)
+```
+
