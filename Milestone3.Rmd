@@ -18,4 +18,16 @@ setwd("C:/Users/dshap/Documents/class-2019-09-10/Milestone_3")
 interview1 <- read_xlsx("ALVShE.xlsx")
 print(interview1)
 ```
+### Project Description
+
+For my final project, I plan to run text analyses on a number of interviews that I ran this past summer on young Russian specialists' views on the future of Russian-American relations. Both of the sources that I have put into this milestone will be used on my final project. Originally, I wrote them up in Google Docs; however, due to the fact that I worded my interviews similarly, I have twelve categories that I have text on for both participants. As such, I was able to simply copy and paste responses into an Excel file in the same format for both participants. I then read the files into R and hope to be able to work further with them from here.
+
+One issue that I envision is the language: all of my interviews were done in Russian. Getting RStudio to accept and work efficiently Cyrillic writing will require some learning -- even to get this file into R and read properly was a challenge in itself. I had to mess with a number of different file formats to get it to read correctly. I am hoping to be able to streamline my work so that importing Russian-language data is not as difficult. Also, I plan to learn the ins and outs of text analysis; I am confident that this skill will help me not only with this project but with other projects in the future as well. 
+
+As a final goal for this project, I hope to be able to analyze trends in rising experts' thinking about the future of the bilateral relationship in terms of a number of different factors, all of which are listed as columns in my data sources. This will help me draw conclusions as to generational dynamics in Russia, the future of Russian thinking on the Transatlantic relationship, and the overall development of political thought in the country. I'm looking forward to learning how to use data as effectively as possible to uncover these conclusions.
+
+```{r}
+interview2 <- read_xlsx("VKVShE.xlsx")
+print(interview2)
+```
 
